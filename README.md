@@ -1,7 +1,14 @@
-# 2020 Houston Flights Delay Dashborad
+**2020 Houston Flights Delay Dashborad**
 
 In this repo, I visualized flights delay with `Bokeh`.
 
+**Contents:**
+- [1. Introduction](#1-introduction)
+- [2. Preview of final results](#2-preview-of-final-results)
+- [3. Bokeh_serve_demo](#3-bokeh_serve_demo)
+- [4. Bokeh_standalon_JS_demo](#4-bokeh_standalon_js_demo)
+
+## 1. Introduction
 According to Bokeh's introduction on [widgets](https://docs.bokeh.org/en/latest/docs/user_guide/interaction/widgets.html):
 
 There are two ways to use a widget’s functionality:
@@ -10,7 +17,7 @@ There are two ways to use a widget’s functionality:
 
 - Use `bokeh serve` to start a Bokeh server and set up event handlers with `.on_change` (or for some widgets, `.on_click`).
 
-## 1. Preview of final results
+## 2. Preview of final results
 
 <p float="left">
   <img src="./images/histogram.png" width="49%" />
@@ -20,7 +27,7 @@ There are two ways to use a widget’s functionality:
   <img src="./images/serve_routes.png" width="49%" />
 </p>
 
-## 2. Bokeh_serve_demo
+## 3. Bokeh_serve_demo
 
 Implemented `bokeh serve` method. Check the blog [here](https://ycheng22.github.io/Deploy_Bokeh_Server_App_on_Heroku/).
 
@@ -49,7 +56,7 @@ This demo is deployed on `Heroku`, check it here <https://yc-bokeh-server2.herok
 - `scripts` has the subroutines which were called in `main.py`.
 - Check the blog to know how to deploy it on Heroku.
 
-## 3. Bokeh_standalon_JS_demo
+## 4. Bokeh_standalon_JS_demo
 
 Implemented `CustomJS` method. Check the blog [here](https://ycheng22.github.io/2020_Houston_flights_delay_dashboard/).
 
