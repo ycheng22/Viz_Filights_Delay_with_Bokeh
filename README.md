@@ -13,9 +13,9 @@ According to Bokeh's introduction on [widgets](https://docs.bokeh.org/en/latest/
 
 There are two ways to use a widget’s functionality:
 
-- A `CustomJS` callback. This approach will work in standalone HTML documents or Bokeh server apps.
+- A `CustomJS` callback. This approach will work in standalone HTML documents or Bokeh server apps, need `JavaScript` programming.
 
-- Use `bokeh serve` to start a Bokeh server and set up event handlers with `.on_change` (or for some widgets, `.on_click`).
+- Use `bokeh serve` to start a Bokeh server and set up event handlers with `.on_change` (or for some widgets, `.on_click`), pure `Python` programming.
 
 ## 2. Preview of final results
 
@@ -29,7 +29,7 @@ There are two ways to use a widget’s functionality:
 
 ## 3. Bokeh_serve_demo
 
-Implemented `bokeh serve` method. Check the blog [here](https://ycheng22.github.io/Deploy_Bokeh_Server_App_on_Heroku/).
+Implemented `bokeh serve` method. Check the **blog** [here](https://ycheng22.github.io/Deploy_Bokeh_Server_App_on_Heroku/).
 
 This demo is deployed on `Heroku`, check it here <https://yc-bokeh-server2.herokuapp.com/>
 
@@ -58,7 +58,7 @@ This demo is deployed on `Heroku`, check it here <https://yc-bokeh-server2.herok
 
 ## 4. Bokeh_standalon_JS_demo
 
-Implemented `CustomJS` method. Check the blog [here](https://ycheng22.github.io/2020_Houston_flights_delay_dashboard/).
+Implemented `CustomJS` method. Check the **blog** [here](https://ycheng22.github.io/2020_Houston_flights_delay_dashboard/).
 
 ```
 📦Bokeh_standalon_JS_demo
